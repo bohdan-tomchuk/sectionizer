@@ -68,10 +68,10 @@ install_backend_dependencies() {
 }
 
 # Check and install npm, Python, pip, and Chocolatey (on Windows)
+install_package "choco"
 install_package "npm"
 install_package "python3"
 install_package "pip"
-install_package "choco"
 
 # Install frontend and backend dependencies
 install_frontend_dependencies
